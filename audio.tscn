@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://fy8g26rm6pdj"]
+
+[ext_resource type="AudioStream" uid="uid://br4q4hn7xk03n" path="res://JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg" id="1_qc0l7"]
+
+[node name="Node" type="Node"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_qc0l7")
+autoplay = true
